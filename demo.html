@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }/* it is the root element*/
+
+        :root {
+            --brand-color:  rgb(88, 212, 214);
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+        }
+        .container-1 {
+            background-color: var(--brand-color);/* variable can be declared and used*/
+            /*border: 2px solid red;
+            padding: 4px;*/
+        }
+        .container-2 {
+            background-color: aqua;
+            border: 2px solid red;/* boder width,boder style,border color*/
+            padding: 4px;
+            /*box-sizing: border-box; instead of this declare it in the top with symbol * so that it can apply to all*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container-1">
+
+    </div>
+    <div class="container-2">
+
+    </div>
+</body>
+</html>
