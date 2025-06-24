@@ -1,0 +1,29 @@
+.card {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0 ,0, 0, 0.3);
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.bg-blue-500 {
+    background-color: blue;
+}
+
+/* Media quries*/
+@media(max-width: 400px) {
+    .card {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card{
+        font-size: 30px;
+    }
+}
